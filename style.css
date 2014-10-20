@@ -1,0 +1,96 @@
+body{
+	background-color: rgba(185,183,183,0.5);
+}
+
+.parent{
+	height: 15%;
+	width: 25%;
+	border-style: solid;
+	border-width: 4px;
+	border-color: rgb(111,119,200);
+	border-radius: 5em;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	background-color: rgba(100,109,230,0.5);
+	box-shadow: 0.6em 0.6em 0.6em 0.6em #777777;
+	text-shadow: 0.1em 0.1em 0.1em #777777;
+	position: fixed;
+	top: 35%;
+	left: 32%;
+}
+
+.parent:hover{
+	border-color: rgb(216,38,18);
+}
+
+.child{
+	height: 10%;
+	width: 15%;
+	border-width: 2px;
+	border-style: solid;
+	border-color: rgb(90,128,190);
+	border-radius: 30em;
+	text-align: center;
+	background-color: rgba(104,128,130,0.5);
+	box-shadow: 0.6em 0.6em 0.6em 0.6em #777777;
+	float: left;
+	margin-top: 5%;
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-bottom: 10%;
+}
+
+.child:hover{
+	background-color: rgba(245,171,18,0.5);
+	border-color: rgb(245,171,18);
+}
+
+span{
+	display: block;
+	padding: 15px;
+	cursor: pointer;
+}
+
+button{
+	margin-bottom: 10 px;
+	border-radius: 3em;
+	border-style: dotted;
+	cursor: pointer;
+}
+
+h1{
+	text-shadow: 0.1em 0.1em 0.1em #777777;
+}
+
+h2{
+	text-shadow: 0.1em 0.1em 0.1em #777777;
+	opacity: 0.8;
+}
+
+p{
+	text-shadow: 0.1em 0.1em 0.1em #777777;
+	opacity: 0.5;
+}
+
+#fixed{
+	position: fixed;
+	top: 53%;
+	left: 15%;
+	height: 10%;
+	width: 15%;
+	border-width: 2px;
+	border-style: solid;
+	border-color: rgb(90,128,190);
+	border-radius: 30em;
+	text-align: center;
+	background-color: rgba(104,128,130,0.5);
+	box-shadow: 0.6em 0.6em 0.6em 0.6em #777777;
+	margin: 0px 0px 0px 0px;
+	padding-bottom: 20px;
+}
+
+#fixed:hover{
+	background-color: rgba(245,171,18,0.5);
+	border-color: rgb(245,171,18);
+}
